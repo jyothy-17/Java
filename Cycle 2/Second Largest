@@ -1,0 +1,32 @@
+import java.util.*;
+class Second Largest
+{
+   public static void main(string args[])
+   {
+     int n,max;
+      Scanner Sc=new Scanner(System.in);
+      System.out.println("enter the total number of element yoy want:");
+      n=Sc.nextInt();
+      int a[]=new int[n];
+      System.out.println("enter the  all elements:");
+      for(inti=o;i<n;i++)
+      {
+       a[i]=Sc.nextInt();
+       }
+       
+         for(inti=0;i<n;i++)
+         {
+          for(intj=i+1;j<n;j++)
+          {
+            if(a[i]>a[j])
+            {
+              max=a[i];
+             a[i]=a[j];
+              a[j]=max;
+              
+              }
+              }
+              }
+           System.out.println("The second largest element in the array is:"+a[n_2]);
+           }
+       }
