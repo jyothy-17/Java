@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+class file1
+{
+ public static void main (String args[])
+ {
+ file input stream fin=new file input stream("e1.txt");
+ inti=1;
+ intch;
+ System.out.printf(i+"_");
+ while((ch=fin.read())!=-1)
+ {
+ System.out.print(++i+("_");
+ }
+ fin.close();
+ }
+ }
