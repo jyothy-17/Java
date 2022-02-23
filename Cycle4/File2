@@ -1,0 +1,31 @@
+import java.util.*;
+import java.io.*;
+class file2
+{
+public static void main (String args[]) throws exception
+{
+
+try
+{
+ Scanner sc=new Scanner (System.in);
+ File Writer Fw=new File Writer ("e2,txt");
+ System.out.println("enter your name:");
+ String name=sc.nextInt();
+ Stsrem.out.orintln("enter your address:");
+ String address=sc.nextLine();
+ Fw.write(name+"\");
+ Fw.write(address);
+ Fw.close();
+ File Reader Fr=new File Reader("e2.txt");
+ int ch;
+ while((ch=Fr.read())!=-1)
+ System.out.println((char)ch);
+ Fr.close();
+ }
+ catch (Exception e)
+ {
+  system.out.println(e);
+  }
+  }
+  }
+ 
