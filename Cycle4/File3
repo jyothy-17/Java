@@ -1,0 +1,23 @@
+import java.util.*;
+import java.io.*;
+class file2
+{
+ public static void main (String args[]) throws exception
+ {
+  file input stream fin=new file input stream("e1.txt");
+  int c=0,l=0,w=0;
+  int ch;
+  while((ch=fin.resd())!=-1)
+  {
+  c++
+  if(ch=='\n')
+  l++;
+  if(ch==''||ch=='\n')
+  w++;
+  }
+  System.out.println("no of character ="+c);
+  System.out.println("no of word="+w);
+  System.out.println("no of lines"+l);
+  fin .close();
+  }
+  }
