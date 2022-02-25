@@ -1,0 +1,35 @@
+import java.util.*;
+import java.io.*;
+class file4
+{
+ public static void main (String args[])throws exception
+ 
+ {
+  try
+  {
+  FileInputStream fin=new fileStreamInput("e1.txt");
+  int ch;
+  string a;
+  int sum=0;
+  System.out.println("the number in the file are:");
+  while((chfin.read()!=-1)
+  {
+   string s=character to string((char)ch);
+   string Tokenizer st=new string Tokenizer(s);
+   while(st.has more token())
+   {
+    a=st.nextToken();
+    int b=integer.parseInt(a);
+    System.out.println(b);
+    sum=sum+b;
+    }
+    }
+    System.out.println("the sum is "+sum);
+    }
+    catch( exception e)
+    {
+    System.out.println(e);
+    
+    }
+    }
+    }
